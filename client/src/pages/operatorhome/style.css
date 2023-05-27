@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+}
+
+.home__container {
+  flex: 6;
+}
+
+.home__lists {
+  display: flex;
+  gap: 1rem;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 420px;
+}
+
+
+.listcontainer2{
+  height: calc(100vh - 74px);
+  overflow-y: scroll;
+}

@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+}
+
+.home__container {
+  flex: 6;
+}
+
+.operatorlist {
+  margin: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  height: calc(100vh - 74px);
+  overflow-y: scroll;
+}
+

@@ -1,0 +1,36 @@
+.operatorlist__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(192, 192, 192, 0.47);
+    padding: 1rem 10px;
+    margin: 2rem 0;
+}
+
+.viewlink{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.actionbuttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.deletebutton > button{
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.deletebutton{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
